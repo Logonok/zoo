@@ -2,19 +2,19 @@
 
 module.exports = {
 
-    title: 'Boilerplate',
+    title: 'Zoo',
 
     components: {
         'db': {
             settings: {
-                'database': process.env.MONGO_NAME || 'evado-boilerplate',
+                'database': process.env.MONGO_NAME || 'evado-zoo',
             }
         },
         'cookie': {
-            secret: 'boilerplate.evado'
+            secret: 'zoo.evado'
         },
         'session': {
-            secret: 'boilerplate.evado'
+            secret: 'zoo.evado'
         },
         'i18n': {
             // language: 'ru'
